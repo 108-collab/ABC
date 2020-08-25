@@ -2,4 +2,6 @@ if (!require("BiocManager"))
     install.packages("BiocManager")
 BiocManager::install("GenomicRanges") #to install the package)
 library(GenomicRanges) #to load into R session
-#from 
+#from mm9_annotation.gtf 
+#eg of a gene "mt-Nd5"  start codon to stop codon "11742 -13565"  possible range where promoter is located is between 10742 - 14000
+#
