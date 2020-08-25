@@ -2,3 +2,4 @@ if (!require("BiocManager"))
     install.packages("BiocManager")
 BiocManager::install("GenomicRanges") #to install the package)
 library(GenomicRanges) #to load into R session
+#from 
